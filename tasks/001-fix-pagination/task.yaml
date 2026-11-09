@@ -1,0 +1,9 @@
+id: 001-fix-pagination
+title: Fix off-by-one bugs in pagination
+tags: [bugfix, single-file]
+timeout_s: 600
+prompt: |
+  Users report two bugs in pager.py:
+  1. Page 1 skips the first items. Pages are 1-indexed: page 1 must start at the first item.
+  2. page_count() drops the last, partially filled page (25 items at 10 per page should be 3 pages).
+  Fix both bugs. Keep the existing ValueError behavior for invalid arguments.

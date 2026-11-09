@@ -1,0 +1,5 @@
+# Image the DockerSandbox runs hidden tests in.
+# Build once:  docker build -t evalh-sandbox:latest -f docker/Dockerfile.sandbox .
+FROM python:3.12-slim
+RUN pip install --no-cache-dir "pytest>=8"
+WORKDIR /work

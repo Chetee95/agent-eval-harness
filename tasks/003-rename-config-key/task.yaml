@@ -1,0 +1,11 @@
+id: 003-rename-config-key
+title: Rename a config key across modules with backward compatibility
+tags: [refactor, multi-file]
+timeout_s: 600
+prompt: |
+  Rename the configuration key `db_url` to `database_url` everywhere in the `app` package.
+  Keep backward compatibility in load_config():
+  - If the overrides use the old key `db_url`, map it to `database_url` and emit a DeprecationWarning.
+  - If both keys are given, `database_url` wins (still warn about `db_url`).
+  - The returned config must never contain `db_url`.
+  - Do not mutate the overrides dict that was passed in.

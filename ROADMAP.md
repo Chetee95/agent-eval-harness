@@ -19,7 +19,7 @@ Rule for every project: no client, employer or Mercor data, code or prompts. Pub
 ### Milestone 2: make it yours (week 1)
 - 🧑‍💻 Implement `classify()` in `evalh/classify.py` until `tests/test_classify.py` passes, then remove its `xfail` marker
 - 🧑‍💻 Write 7 more tasks (goal: 10). Mix: 3 bug fixes, 2 features from a spec, 2 multi-file refactors, at least 1 SQL task (SQLite) to show your database skills
-- 🧑‍💻 Replace `OWNER` in the README badge with your GitHub username
+- ✅ README badge points at Chetee95/agent-eval-harness
 - 🤝 Review your tasks together for leaks (prompt giving away the answer) and weak hidden tests
 
 ### Milestone 3: real agents, real numbers (week 2)

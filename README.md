@@ -1,6 +1,6 @@
 # agent-eval-harness
 
-![CI](https://github.com/OWNER/agent-eval-harness/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Chetee95/agent-eval-harness/actions/workflows/ci.yml/badge.svg)
 
 **Reproducible, sandboxed benchmarking for AI coding agents.**
 Give any CLI coding agent (Claude Code, Aider, Codex CLI, your own) a set of real repository tasks,
